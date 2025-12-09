@@ -1,5 +1,8 @@
 <h1><%= @article.title %></h1>
 <p><%= @article.body %></p>
 <br>
-<%= link_to "Go to list pf articles", articles_path %>
+<ul>
+    <li><%= link_to "Edit", edit_article_path(@article)%></li>
+    <li><%= link_to "To list", articles_path %></li>
+</ul>
 
