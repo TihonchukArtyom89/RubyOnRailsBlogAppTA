@@ -21,4 +21,5 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* Future update:
+  - add possibility to update and delete for comments 
